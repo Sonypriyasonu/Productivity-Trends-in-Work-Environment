@@ -136,6 +136,7 @@ plt.ylabel("Monthly Salary")
 plt.show()
 
 ## Feature Engineering
+import pickle
 from sklearn.preprocessing import StandardScaler
 
 # One-Hot Encoding for Nominal Variables (non-ordinal categorical variables)
@@ -160,13 +161,15 @@ scaler = StandardScaler()
 # Apply scaling to the numerical columns
 df_encoded[numerical_columns] = scaler.fit_transform(df_encoded[numerical_columns])
 
+with open('scaler.pkl', 'wb') as scaler_file:
+    pickle.dump(scaler, scaler_file)
+    
 # Display the first few rows of the scaled DataFrame
 print(df_encoded.head())
 
 
 ## Model Development
 from sklearn.model_selection import train_test_split
-import pickle
 
 X = df_encoded.drop(columns=['Employee_ID','Performance_Score', 'Hire_Date']) # Drop the target and any unwanted columns
 y = df_encoded['Performance_Score']  # Target variable: Performance_Score
