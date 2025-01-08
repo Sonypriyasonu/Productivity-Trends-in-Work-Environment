@@ -2,8 +2,8 @@
 
 ## Objective:
     The objective of this project is to analyze employee performance trends and predict their productivity scores based on various factors, such as:
-    - **Work hours**, **salary**, **performance scores**, **employee satisfaction**, and more.
-    - Identify trends in factors like **remote work**, **overtime hours**, **education**, **years at the company**, etc.
+    - Work hours, salary, performance scores, employee satisfaction, and more.
+    - Identify trends in factors like remote work, overtime hours, education, years at the company, etc.
     
     By leveraging this data, the goal is to identify key trends that can help improve HR strategies, enhance employee engagement, and predict performance outcomes.
 
