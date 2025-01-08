@@ -11,6 +11,7 @@
     This dataset contains 100,000 rows of data capturing key aspects of employee performance, productivity, and demographics in a corporate environment. 
     It includes details related to the employee's job, work habits, education, performance, and satisfaction. The dataset is designed for various purposes such as HR analytics, employee churn prediction, productivity analysis, and performance evaluation.
 
+* Link: https://teams.microsoft.com/l/message/19:4d3d9dc1-7c9f-4542-a2f6-3168a88d9880_4e755b08-606d-42b9-80d2-1edae3e0b8ab@unq.gbl.spaces/1736183391590?context=%7B%22contextType%22%3A%22chat%22%7D
 * Employee_ID: Unique identifier for each employee.
 * Department: The department in which the employee works (e.g., Sales, HR, IT).
 * Gender: Gender of the employee (Male, Female, Other).
